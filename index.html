@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<link rel="stylesheet" href="formstyles.css"> <!-- link to stylesheet -->
+	  <title>JavaScript demo</title>
+	  <!-- add the link tag to the style.css which will be in a folder -->
+	  
+	  
+	  <!-- used to embed client side script/JS -->
+	  <script type="text/javascript">
+		//comment in JS
+		//add 3 examples of javascript
+	
+		function sayThanks(first name){ //declare function name that will produce longer code 
+			document.write("Thank you "+(first name)+ " for visiting our website and we hope that you come back soon!"); //message to user 
+		}
+		
+		var name; //declare name variable
+		var college; // declare college variable
+		name = prompt("Whats your full name?"); //assign data to var
+		college = prompt("What college are you newly attending?"); //assign data to var
+		alert("Hi " + name + " welcome to " + college);
+		
+		var age1 = parseInt(prompt("Enter your age")); //declare age variable
+		var age2 = parseInt(prompt("Enter your mothers age")); //declare age for mother variable 
+		alert("Your combined ages are " +(num1+num2)+" years"); //alert that combines both ages
+		
+		var secret number = 67; // choose your number you wish for user to try and guess 
+            var i;
+            for(i = 1; i <=10; i++){   //for loop to run 10 times
+			
+			var guess = parseInt(prompt("Enter a guess 1-100")); //user guesses here
+           
+                if(secret == guess){
+                    document.write("\n Perfect Guess"); //if the user guess is the same as our secret number 
+                }else if(secret < guess){
+                    document.write("\nGuess is too high sorry"); //if user guesses too high 
+                }else if(secret > guess){
+                    document.write("\nGuess is too low sorry"); //if user guess too low
+                }else{
+                    document.write("\ninvalid input" ); //if guess is neither higher or lower 
+                }
+           
+            }
+            document.write("\n out of the loop" );
+	
+	  </script>
+	  	  
+	</head>
+	<body>
+		<h1>Graded lab exercise</h1>
+		<p>add 3 examples of javascript</p>
+		<p>create a repo in github and add your project when finished</p>
+		<p>post just the link to the github repo in OneNote</p>
+		<p>you link should look like this https://github/username/repoName.git </p>
+	</body>
+</html>
